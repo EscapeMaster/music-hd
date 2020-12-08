@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/playlist/playlist",
+    "pages/blog/blog",
+    "pages/my/my"
+  ],
+  "tabBar": {
+    "color": "#474747",
+    "selectedColor": "#d43c43",
+    "list": [{
+      "pagePath": "pages/playlist/playlist",
+      "text": "音乐",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/music-selected.png"
+    },{
+      "pagePath": "pages/blog/blog",
+      "text": "发现",
+      "iconPath": "images/release.png",
+      "selectedIconPath": "images/release-selected.png"
+    },{
+      "pagePath": "pages/my/my",
+      "text": "我的",
+      "iconPath": "images/my.png",
+      "selectedIconPath": "images/my-selected.png"
+    }]
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
